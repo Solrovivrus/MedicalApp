@@ -6,6 +6,66 @@
   background: #FFFFFF;
 }
 
+.header{
+  position: absolute;
+  width: 1440px;
+  height: 145px;
+  left: 0px;
+  top: 0px;
+
+
+}
+
+.headerImage{
+  position: absolute;
+  width: 45px;
+  height: 108px;
+  left: 23px;
+  top: 20px;
+}
+
+.headerText{
+  position: absolute;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.searchBar{
+  position: absolute;
+  width: 330px;
+  height: 47px;
+  left: 1087px;
+  top: 43px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.searchIcon{
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: calc(50% - 28px/2 + 398px);
+  top: calc(50% - 28px/2 - 1303px);
+
+  background: #000000;
+}
+
+.Rec1{
+  position: absolute;
+  width: 1005px;
+  height: 694px;
+  left: 412px;
+  top: 145px;
+
+  background: #C4C4C4;
+}
 
 .Rec2{
   position: absolute;
@@ -14,7 +74,7 @@
   left: 23px;
   top: 145px;
 
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 .Rec2Text{
@@ -30,3 +90,96 @@
   color: #000000;
 }
 
+.break{
+  position: absolute;
+  width: 1098px;
+  height: 0px;
+  left: 176px;
+  top: 969px;
+
+  border: 1px solid #000000;
+}
+
+.body{
+  position: absolute;
+  width: 646px;
+  height: 241px;
+  left: 567px;
+  top: 1058px;
+
+  font-family: BebasNeue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 120px;
+
+  color: #000000;
+}
+
+.filler{
+  position: absolute;
+  width: 1048px;
+  height: 384px;
+  left: 171px;
+  top: 1220px;
+  
+  
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+.Rec3{
+  position: absolute;
+  width: 324px;
+  height: 420px;
+  left: 170px;
+  top: 1920px;
+
+  background: #C4C4C4;
+}
+
+.quote{
+  position: absolute;
+  width: 646px;
+  height: 241px;
+  left: 640px;
+  top: 2003px;
+
+  font-family: BebasNeue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 120px;
+
+  color: #000000;
+
+
+}
+
+.break2{
+  position: absolute;
+  width: 1098px;
+  height: 0px;
+  left: 176px;
+  top: 2470px;
+
+  border: 1px solid #000000;
+}
+
+.bottomHeaderText{
+  position: absolute;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
