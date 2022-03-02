@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App(){
+
+  return(
+    <div className="app">
+      <div className="Rec2">
+      <span className="Rec2Text" style={{width:'220px', height:'624px', left:'45px', top:'246px'}}>
+        WE WANT YOU TO SEE WHAT WE SEE
+      </span>
+      </div>
     </div>
   );
-}
+} 
 
 export default App;
+
+/*
+<Tweet name="Ed" message="yo" likes="3"/>
+      <Tweet name="John" message="sup" likes="5"/>
+      <Tweet name="Winter" message="whatup" likes="33"/>
+      <Tweet name="Mosh" message="hi" likes="1"/>
+*/
