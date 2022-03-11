@@ -1,185 +1,42 @@
-.app{
-  position: relative;
-  width: 1440px;
-  height: 2740px;
-
-  background: #FFFFFF;
+.App {
+  text-align: center;
 }
 
-.header{
-  position: absolute;
-  width: 1440px;
-  height: 145px;
-  left: 0px;
-  top: 0px;
-
-
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.headerImage{
-  position: absolute;
-  width: 45px;
-  height: 108px;
-  left: 23px;
-  top: 20px;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.headerText{
-  position: absolute;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-
-  color: #000000;
+.flex{
+  display: flex;
 }
 
-.searchBar{
-  position: absolute;
-  width: 330px;
-  height: 47px;
-  left: 1087px;
-  top: 43px;
-
-  border: 1px solid #000000;
-  box-sizing: border-box;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.searchIcon{
-  position: absolute;
-  width: 28px;
-  height: 28px;
-  left: calc(50% - 28px/2 + 398px);
-  top: calc(50% - 28px/2 - 1303px);
-
-  background: #000000;
+.App-link {
+  color: #61dafb;
 }
 
-.Rec1{
-  position: absolute;
-  width: 1005px;
-  height: 694px;
-  left: 412px;
-  top: 145px;
-
-  background: #C4C4C4;
-}
-
-.Rec2{
-  position: absolute;
-  width: 389px;
-  height: 694px;
-  left: 23px;
-  top: 145px;
-
-  background: #e5e5e5;
-}
-
-.Rec2Text{
-  position: absolute;
-  
-
-  font-family: BebasNeue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 80px;
-  line-height: 96px;
-
-  color: #000000;
-}
-
-.break{
-  position: absolute;
-  width: 1098px;
-  height: 0px;
-  left: 176px;
-  top: 969px;
-
-  border: 1px solid #000000;
-}
-
-.body{
-  position: absolute;
-  width: 646px;
-  height: 241px;
-  left: 567px;
-  top: 1058px;
-
-  font-family: BebasNeue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 100px;
-  line-height: 120px;
-
-  color: #000000;
-}
-
-.filler{
-  position: absolute;
-  width: 1048px;
-  height: 384px;
-  left: 171px;
-  top: 1220px;
-  
-  
-
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 44px;
-
-  color: #000000;
-}
-
-.Rec3{
-  position: absolute;
-  width: 324px;
-  height: 420px;
-  left: 170px;
-  top: 1920px;
-
-  background: #C4C4C4;
-}
-
-.quote{
-  position: absolute;
-  width: 646px;
-  height: 241px;
-  left: 640px;
-  top: 2003px;
-
-  font-family: BebasNeue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 100px;
-  line-height: 120px;
-
-  color: #000000;
-
-
-}
-
-.break2{
-  position: absolute;
-  width: 1098px;
-  height: 0px;
-  left: 176px;
-  top: 2470px;
-
-  border: 1px solid #000000;
-}
-
-.bottomHeaderText{
-  position: absolute;
-
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-
-  color: #000000;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
