@@ -1,0 +1,44 @@
+.header{
+    margin: auto;
+    padding-bottom: 30px;
+    background-color:#E5D9CD;
+    height: 75px;
+    display: flex;
+}
+
+.mainIcon
+{
+    height: 100%;
+    width: 15%;
+    flex: left;
+
+}
+
+.clickables{
+    height: 100%;
+    width: 60%;
+    flex: left;
+    overflow: hidden;
+
+}
+
+ul.nav{
+    padding-left: 0;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Inter';
+}
+ul.nav > li {
+    display: inline-block;
+    padding: 15px 20px;
+    transition: 0.3s;
+}
+ul.nav >li:hover{
+    color: #F7A520; 
+}
+
+
+.searchArea
+{
+
+}
